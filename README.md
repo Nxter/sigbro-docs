@@ -9,7 +9,7 @@ curl -s https://random.api.nxter.org/api/auth/new -d '{"uuid":"F73185DC-D760-4E6
 # {"result":"ok","msg":"The new record `F73185DC-D760-4E6E-BAE7-43861601C6F8` was saved."}
 ```
 
-2. Using the same UUID4 generate URL `sigbro://F73185DC-D760-4E6E-BAE7-43861601C6F8` and make QR-code. Put it on your login form. 
+2. Using the same UUID4 generate URL `sigbro://F73185DC-D760-4E6E-BAE7-43861601C6F8` and make QR-code. Put it on your login form. You may use this url as a **deeplink** for mobile devices. Sigbro Mobile app will handle it and open.
 
 3. Start loop with 5 sec delay between iterations and wait until user scan & sign this QR-code. 
 ```shell
