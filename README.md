@@ -3,12 +3,12 @@ Documentation for the SIGBRO Auth
 
 **What is SIGBRO Auth?**
 
-SIGBRO Auth is a method to log in to online Ardor wallets and UIs. The user clicks on a link on the mobile website OR scans a QR code from an external screen with the SIGBRO app. Then the user is logged in automatically, and the website owner knows that the user owns the Ardor account without ever exposing the passphrase. 
+SIGBRO Auth is a method to log in to online Ardor wallets and UIs. The user visits the website, clicks on a link in the mobile browser OR scans a QR code from an external screen with the SIGBRO app. Then the user is logged in automatically, and the website admin knows that the user owns the Ardor account without the user ever exposing the passphrase. 
 
-The wallet admin can now save the accountRS and find additional information about the account in the blockchain.
+The admin can now save the accountRS and find additional information about the account in the Ardor blockchain.
 Using SIGBRO Auth requires running the SIGBRO mobile app (available for Android here: https://play.google.com/store/apps/details?id=org.nxter.sigbro). 
 
-There is NO entering passphrases or email addresses or other personal information, so users can safely use any public computer and internet connection with SIGBRO Auth.
+There is NO entering passphrases or email addresses or other personal information into the website, so users can safely use any public computer and internet connection with SIGBRO Auth.
 
 What it does
 
