@@ -8,8 +8,8 @@ curl -s https://random.api.nxter.org/api/auth/new -d '{"uuid":"F73185DC-D760-4E6
 ```
 
 2. You need to use the same UUID4 for making URL `https://dl.sigbro.com/auth/F73185DC-D760-4E6E-BAE7-43861601C6F8/`. Use
-   it prepare QR-code. Put it on your login form (any page you want). You may also use this url as a **deeplink** for
-   the mobile devices. The SIGBRO Mobile app will handle it and automatically open.
+   it to prepare the QR-code. Put it on your login form (any page you want) and add the link for mobile devices (**
+   deeplink**). The SIGBRO Mobile app will handle it and automatically open.
 
 3. Start loop with 5-10 sec delay between iterations and wait until a user scans & signs this QR-code. Default timeout
    is 5 minutes.
