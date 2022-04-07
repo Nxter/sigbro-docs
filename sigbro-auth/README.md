@@ -89,27 +89,34 @@ owner (or controller) of that particular Ardor account.
 
 ## WordPress plugin for the SIGBRO AUTH
 
-You may find the plugin in the sub-folder. You have to create zip file with the plugin and upload it to the WordPress.
-The plugin has 3 shortcodes. 
+You may find the plugin on the [GitHub](https://github.com/Nxter/wp-sigbro-auth2). You have to create zip file with the
+plugin files and upload it (zip archive) to the WordPress. The plugin has 3 shortcodes.
 
 ### Disclaimer
+
 The JS & PHP code included hardcoded password for AES encryption. This is not a good practice, and should be changed.
 
 ### sigbro-auth
+
 ```shell
 [sigbro-auth redirect="/profile"]
 ```
+
 This shortcode will show the QR-code and redirect the user to the profile page after log-in.
 
 ### sigbro-info
+
 ```shell
 [sigbro-info redirect="/error"]
 ```
+
 This shortcode will check if the user is logged in and show the user information, else redirect to the error page.
 
 ### sigbro-logout
+
 ```shell
 [sigbro-logout redirect="/"]
 ```
+
 This shortcode will log out the user and redirect to the home page.
 
