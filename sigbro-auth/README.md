@@ -56,22 +56,22 @@ For a service with a responsive website, this use will 1) remove responsibility 
 the service owner, 2) offer better security for the user (local signing, passphrase encrypted on phone, so a website
 hack can’t exploit it), 3) offer easy passwordless login (use fingerprint to open SIGBRO), 4) secure the user (and
 service) against transferring funds to a hacker who has changed the website code, because the SIGBRO app will always
-show the real transaction details to the user, 5) by using AUTH and SIGBRO deeplink you can apply for getting a link to
-your service/UI integrated directly into the SIGBRO app, so that SIGBRO users can visit from the app directly from
+show the real transaction details to the user, 5) by using SIGBRO AUTH and SIGBRO TX you can apply for getting a link to
+your service/UI integrated directly into the SIGBRO app, so that SIGBRO users can visit your UI directly from
 within the SIGBRO app UI and without even logging in. You'll get their login token sent automatically.
 
 ### Anything else
 
-Using Ardor account ID’s and SIGBRO AUTH opens for rather limitless possibilities, as service providers can use it with
+Using Ardor account ID’s and SIGBRO AUTH opens for almost limitless possibilities, as service providers can use it with
 the inbuilt Ardor platform features and even add their own smart contracts to the blockchain, and trigger them with
-SIGBRO. After auth, the server can, for example, scan for membership properties, like a corona-pass and its status,
+SIGBRO. After auth, the server can, for example, scan for membership properties and its status,
 search for tokens that represent a ticket or user/citizen rights, rebate points to a store, etc., and then automatically
 give the user access to the privileges this data dictates.
 
 Currently, the SIGBRO Team works on ways to (optionally) link Ardor ID’s to trusted information about the individuals
 and companies that own accounts, so that SIGBRO AUTH in the foreseeable future can be used for digital signing of
-documents, shareholder meetings, multi-sig, and voting, and so that users can check whose accounts they interact with,
-in order to avoid scams. If you want to learn more, you’re welcome to contact the SIGBRO Team.
+documents, shareholder meetings, and voting, and so that users can check whose accounts they interact with,
+in order to avoid scams, for example when buying NFTs. If you want to learn more, you’re welcome to contact the SIGBRO Team.
 
 ## How does SIGBRO AUTH work?
 
