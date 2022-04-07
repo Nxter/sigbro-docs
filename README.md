@@ -1,5 +1,14 @@
-# sigbro-docs
+# SIGBRO DOCS
 
-## sigbro-auth
+## SIGBRO AUTH
 
-[SIGBRO AUTH](sigbro-auth/README.md)
+SIGBRO AUTH is a method to log in to online Ardor wallets and UIs.
+
+[Read more](sigbro-auth/README.md)
+
+
+## SIGBRO TX
+
+SIGBRO TX is a way to send transactions to the Ardor blockchain via SIGBRO MOBILE.
+
+[Read more](sigbro-tx/README.md)
