@@ -47,8 +47,8 @@ received, or any other information that is stored on the blockchain.
 ### Wallets / Web UI’s
 
 Another service might want to also let the user make transactions. This is where SIGBRO’s ability to check and sign
-transactions locally for the user is handy. After SIGBRO AUTH login, the server can generate an unsigned transaction
-json for any kind of Ardor blockchain transaction and show it as a deeplink (or button) or as a QR code for the user.
+transactions locally for the user is handy. After SIGBRO AUTH login, the server can [generate an unsigned transaction
+json](https://github.com/Nxter/sigbro-docs/blob/master/sigbro-tx/README.md) for any kind of Ardor blockchain transaction and show it as a deeplink (or button) or as a QR code for the user.
 The user then gets to check the details of the transaction in the SIGBRO app and approve the transaction. The app always
 shows correct transaction details.
 
